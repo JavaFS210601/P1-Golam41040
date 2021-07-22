@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/signup.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="sign-up">
+        <div class="signup-form">
+            <img class="rev" src="../IMAGES/Revature.png" alt="">
+            <h2>Create an Account</h2>
+                <input type="text" name="f_name" id="f_name" placeholder="First Name">
+                
+                <input type="text" name="l_name" id="l_name" placeholder="Last Name">
+
+                <input type="text" name="u_name" id="u_name" placeholder="User Name">
+
+                <input type="password" name="password" id="password" placeholder="Password">
+
+                <input type="text" name="email" id="email" placeholder="Email">
+                <p id="radio_para">User's Role</p>
+                <input type="radio" id="employee" name="role" value="2">
+                <label for="employee" id="emp_l">Employee</label><br>
+                <input type="radio" id="manager" name="role" value="1">
+                <label for="manager" id="man_l">Finance Manager</label><br>
+
+                <input type="button" value="Sign Up!!" class="signup-button" id="button">
+
+            
+        </div>
+    </div>
+    <div class="error-page">
+        <div id="try-again">
+            <a href="signup.html" id="error-link" style="color: aliceblue;">Error: You either left a field empty or Username/Email already exists!!</a>
+        </div>
+        
+    </div>
+    <script src="../JS/signup.js"></script>
+</body>
+
+</html>

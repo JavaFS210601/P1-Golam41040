@@ -1,0 +1,171 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("../IMAGES/logincolor.jpg");
+  font-family: "Ubuntu", sans-serif;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  margin: 0;
+  padding: 0;
+}
+.sign-up {
+  margin: 0px auto;
+  max-width: 500px;
+}
+.signup-form {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.123);
+  box-shadow: 0px 0px 10px #000;
+  height: 85vh;
+  position: relative;
+  top: 40px;
+  max-width: 500px;
+}
+
+.rev {
+  width: 300px;
+}
+
+.signup-form > h2,
+h3 {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  margin-left: 40px;
+  color: rgb(53, 53, 56);
+  position: relative;
+  right: 15px;
+  top: 40px;
+  font-size: x-large;
+}
+
+.sign-up input[type="text"],
+.sign-up input[type="password"] {
+  max-width: 400px;
+  width: 80%;
+  line-height: 3em;
+  font-family: "Ubuntu", sans-serif;
+  margin: 1em 2em;
+  border-radius: 5px;
+  border: 2px solid #0707075e;
+  outline: none;
+  padding-left: 10px;
+  position: absolute;
+  color: #f2f2f2;
+  background: rgba(53, 47, 47, 0.774);
+}
+#f_name {
+  top: 23%;
+  left: 15px;
+}
+#l_name {
+  top: 33%;
+  left: 15px;
+}
+#u_name {
+  top: 43%;
+  left: 15px;
+}
+
+#password {
+  top: 53%;
+  left: 15px;
+}
+#email {
+  top: 63%;
+  left: 15px;
+}
+
+#radio_para {
+  position: absolute;
+  top: 71%;
+  left: 42px;
+  color: #f2f2f2;
+}
+#employee {
+  top: 77%;
+}
+
+#manager {
+  top: 80%;
+}
+
+#emp_l {
+  top: 77%;
+}
+
+#man_l {
+  top: 80%;
+}
+
+.signup-form {
+  box-sizing: border-box;
+  padding-top: 15px;
+  padding-bottom: 10%;
+  margin: 5% auto;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(37, 30, 30);
+}
+
+label {
+  display: block;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+label {
+  position: absolute;
+  left: 66px;
+}
+
+.signup-form input[type="radio"] {
+  position: absolute;
+  left: 42px;
+}
+
+.signup-form input[type="button"] {
+  height: 40px;
+  max-width: 400px;
+  width: 80%;
+  background: rgb(9, 182, 212);
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.808);
+  box-shadow: 0px 0px 10px rgb(71, 143, 139);
+  font-weight: bold;
+  transition: transform 0.05s linear;
+  font-family: "Ubuntu", sans-serif;
+  cursor: pointer;
+  position: relative;
+  top: 73%;
+  left: auto;
+}
+
+::placeholder {
+  color: white;
+}
+
+#try-again {
+  text-decoration: underline;
+  cursor: pointer;
+  display: none;
+}
+#empty-no {
+  text-decoration: underline;
+  cursor: pointer;
+  display: none;
+}

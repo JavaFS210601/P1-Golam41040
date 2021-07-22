@@ -1,0 +1,165 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("../IMAGES/logincolor.jpg");
+  font-family: "Ubuntu", sans-serif;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  margin: 0;
+  padding: 0;
+}
+.login {
+  margin: 0px auto;
+  max-width: 500px;
+}
+
+.login-form {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.123);
+  box-shadow: 0px 0px 10px #000;
+  height: 80vh;
+  position: relative;
+  top: 40px;
+  max-width: 500px;
+}
+
+.login-form > h3 {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  margin-left: 40px;
+  color: rgb(71, 70, 77);
+  position: relative;
+  right: 15px;
+  top: 30px;
+  font-size: x-large;
+}
+.login-form {
+  box-sizing: border-box;
+  padding-top: 15px;
+  padding-bottom: 10%;
+  margin: 5% auto;
+  text-align: center;
+}
+.login input[type="text"],
+.login input[type="password"] {
+  max-width: 400px;
+  width: 80%;
+  line-height: 3em;
+  font-family: "Ubuntu", sans-serif;
+  margin: 1em 2em;
+  border-radius: 5px;
+  border: 2px solid #0707075e;
+  outline: none;
+  padding-left: 10px;
+  position: absolute;
+  color: #f2f2f2;
+  background: rgba(53, 47, 47, 0.774);
+}
+
+.login input[type="text"] {
+  top: 32%;
+  left: 15px;
+}
+.login input[type="password"] {
+  top: 44%;
+  left: 15px;
+}
+.login-form input[type="button"] {
+  height: 40px;
+  max-width: 400px;
+  width: 80%;
+  background: rgb(9, 182, 212);
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 10px rgb(71, 143, 139);
+  font-weight: bold;
+  transition: transform 0.05s linear;
+  font-family: "Ubuntu", sans-serif;
+  cursor: pointer;
+  position: relative;
+  top: 36%;
+  left: auto;
+}
+.sign-up {
+  color: #3d2169;
+  margin-left: -70%;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  top: 38%;
+  left: 170px;
+  font-weight: bolder;
+}
+.no-access {
+  color: #111110;
+  margin: 20px 0px 20px -57%;
+  text-decoration: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 5px;
+  right: 30px;
+  font-weight: bold;
+}
+#try-again {
+  color: #f2f2f2;
+  text-decoration: underline;
+  cursor: pointer;
+  display: none;
+}
+
+#error-link {
+  color: yellow;
+}
+
+/* Media Querie
+@media only screen and (min-width: 150px) and (max-width: 530px) {
+  .login-form h3 {
+    text-align: center; 
+    margin: 0;
+  }
+  .sign-up,
+  .no-access {
+    margin: 10px 0;
+  }
+  .login-button {
+    margin-bottom: 10px;
+  }
+} */
+
+.sign-up:hover {
+  text-decoration: underline;
+}
+
+.no-access:hover {
+  text-decoration: underline;
+}
+
+.login-form input[type="button"]:hover {
+  background: rgb(18, 166, 192);
+  box-shadow: 0px 0px 10px rgb(29, 82, 79);
+  transform: perspective(100px) translateZ(1px);
+}
+
+.login input[type="password"]::before {
+  content: "\f13e";
+}
+
+.rev {
+  width: 300px;
+}
+
+::placeholder {
+  color: white;
+}

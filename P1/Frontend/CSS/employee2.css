@@ -1,0 +1,163 @@
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: url("../IMAGES/employeemenu.jpeg");
+  background-size: cover;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.banner-main {
+  background: rgb(36, 33, 31);
+  width: 100vw;
+  height: 12vh;
+  position: absolute;
+  z-index: -1;
+  top: -20px;
+  box-shadow: 0px 0.5px 10px rgb(15, 17, 17);
+}
+
+.rev {
+  width: 220px;
+  height: 67px;
+  position: relative;
+  left: 10px;
+}
+
+.banner-main > p {
+  font: bold;
+  color: aliceblue;
+  float: right;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+@media screen and (max-width: 910px) {
+  .banner-main {
+    height: 11vh;
+  }
+  .banner-main > p {
+    top: 24px;
+  }
+  .rev {
+    width: 170px;
+    height: 57px;
+  }
+}
+@media screen and (max-width: 786px) {
+  .banner-main {
+    height: 10vh;
+  }
+  .rev {
+    width: 150px;
+    height: 48px;
+  }
+  .banner-main > p {
+    top: 22px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .banner-main {
+    height: 8vh;
+  }
+  .rev {
+    width: 110px;
+    height: 37px;
+  }
+
+  .banner-main > p {
+    top: 15px;
+  }
+}
+
+.header {
+  text-align: center;
+}
+
+#first-header {
+  margin-top: 8vh;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#new-form {
+  box-sizing: border-box;
+  padding-top: 15px;
+  padding-bottom: 10%;
+  margin: 5% auto;
+  text-align: center;
+}
+
+#new-form input[type="text"],
+#new-form input[type="password"] {
+  /* max-width: 400px; */
+  width: 20vw;
+  line-height: 3em;
+  font-family: "Ubuntu", sans-serif;
+  margin: 1em 2em;
+  border-radius: 5px;
+  border: 2px solid #0707079f;
+  outline: none;
+  min-width: 160px;
+  position: relative;
+}
+
+#new-form input[type="button"] {
+  height: 40px;
+  max-width: 400px;
+  margin-top: 30px;
+  background: rgb(9, 182, 212);
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.808);
+  box-shadow: 0px 0px 10px rgb(71, 143, 139);
+  font-weight: bold;
+  transition: transform 0.05s linear;
+  font-family: "Ubuntu", sans-serif;
+  cursor: pointer;
+}
+
+#create {
+  top: 73%;
+  position: relative;
+  width: 80%;
+  left: auto;
+}
+
+#description {
+  font-family: "Ubuntu", sans-serif;
+  border-radius: 5px;
+  border: 2px solid rgba(7, 7, 7, 0.582);
+  outline: none;
+  min-width: 160px;
+  position: relative;
+  width: 20vw;
+}
+
+#type {
+  font-family: "Ubuntu", sans-serif;
+  width: 20vw;
+  height: 30px;
+  border: 2px solid rgba(7, 7, 7, 0.582);
+  
+}
+
+#para {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+
+#new-form input[type="button"]:hover {
+  background: rgb(18, 166, 192);
+  box-shadow: 0px 0px 10px rgb(29, 82, 79);
+  transform: perspective(100px) translateZ(1px);
+}
+
+#back {
+  position: absolute;
+  width: 10vw;
+  right: 5vw;
+}

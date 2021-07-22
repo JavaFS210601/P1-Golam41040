@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/employee2.css">
+</head>
+
+<body>
+    <div class="banner">
+        <img class="rev" src="../IMAGES/Revature.png" alt="">
+        <div class="banner-main">
+            <p id="userprofile"></p>
+        </div>
+    </div>
+    <div class="header">
+        <h1 id="first-header"> New Reimbursment</h1>
+    </div>
+        
+    <div id="new-form">
+        <input type="text" name="amount" id="amount" placeholder="Amount($)">
+        <br>
+        <br>
+        <textarea name="description" id="description" cols="35" rows="10" placeholder="Describe Your Reason..." ></textarea>
+        <br>
+        <br>
+
+        <input type="text" name="receipt" id="receipt" placeholder="Receipt">
+        <br>
+        <br>
+        <p id="para">Choose your Reimbursment Type:</p>
+        <select name="type" id="type">
+            <option value="1">Ambassador Program</option>
+            <option value="2">Associate Travel Expense</option>
+            <option value="3">Certification</option>
+            <option value="4">Relocation to Training</option>
+            <option value="5">Software Engineer - Travel Expenses</option>
+        </select>
+
+        <br>
+        <br>
+
+        <input type="button" value="Create" id="create">
+        <br>
+        <input type="button" value="Back" id="back">
+
+        <script src="../JS/employee2.js"></script>
+    </div>
+</body>
+
+</html>

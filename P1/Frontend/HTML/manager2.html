@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/manager2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="banner">
+        <img class="rev" src="../IMAGES/Revature.png" alt="">
+        <div class="banner-main">
+            <p id="userprofile"></p>
+        </div>
+    </div>
+
+
+    
+    <p style="margin-left:10px ;">Enter the Reimbursment ID you want to update:</p>
+    <input type="text" name="reimb_id" id="reimb_id" placeholder="ID" style="margin-left:10px ;">
+    <input type="button" value="Submit" class="button" id="sub-button">
+
+
+    <div id="notshown" style="text-align: center;">
+        <table class="table table-dark" id="table">
+            <thead id="t-head">
+                <tr>
+                    <th scope="col" id='head1'>ID</th>
+                    <th scope="col" id='head1'>Amount($)</th>
+                    <th scope="col" id='head1'>Submitted</th>
+                    <th scope="col" id='head1'>Description</th>
+                    <th scope="col" id='head1'>Receipt</th>
+                    <th scope="col" id='head1'>Author</th>
+                    <th scope="col" id='head1'>Status</th>
+                    <th scope="col" id='head1'>Type</th>
+                </tr>
+            </thead>
+            <tbody id="reimbody">
+
+            </tbody>
+        </table>
+        <p id="radio_para">Update this Reimbursment Status to:</p>
+        <br>
+        <br>
+        <br>
+        <input type="radio" id="approved" name="status" value="2">
+        <label for="approved" id="approved_l">Approved</label><br>
+
+        <input type="radio" id="denied" name="status" value="3">
+        <label for="denied" id="denied_l">Denied</label><br>
+        
+        <input type="button" value="Update"  id="update-button">
+       
+    </div>
+
+    <div id="notshown2" style="text-align: center;">
+        <h2>No updatable record matches with the ID.</h2>
+    </div>
+
+    <div id="back">
+        <input type="button" value="Back" class="button" id="back-button">
+    </div>
+
+    <script src="../JS/manager2.js"></script>
+
+</body>
+
+</html>
